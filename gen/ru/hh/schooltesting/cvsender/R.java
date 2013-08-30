@@ -72,7 +72,7 @@ public final class R {
         public static final int HeaderStr=0x7f060010;
         public static final int Male=0x7f060007;
         public static final int NameHint=0x7f060003;
-        public static final int Oops!=0x7f060008;
+        public static final int Oops=0x7f060008;
         public static final int PhoneHint=0x7f060011;
         public static final int PhoneNumberError=0x7f06000e;
         public static final int PositionError1=0x7f06000b;

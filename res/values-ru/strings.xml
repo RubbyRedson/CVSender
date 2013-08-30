@@ -9,7 +9,7 @@
     <string name="WageHint">Желаемая зарплата</string>
     <string name="SpinnerPrompt">Пол</string>
     <string name="Male">Мужской</string>
-    <string name="Oops!">Ошибка!</string>
+    <string name="Oops">Ошибка!</string>
 	<string name="FullNameError1">Поле "Имя полностью" не заполнено!</string>
 	<string name="FullNameError2">Каждое слово в поле "Имя полностью" должно начинаться с большой буквы.</string>
 	<string name="PositionError1">Поле "Желаемая позиция" не заполнено!</string>

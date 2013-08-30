@@ -9,7 +9,7 @@
     <string name="WageHint">Desired wage</string>
     <string name="SpinnerPrompt">Sex </string>
     <string name="Male">Male</string>
-	<string name="Oops!">Oops!</string>
+	<string name="Oops">Oops!</string>
 	<string name="FullNameError1">The full name field is empty!</string>
 	<string name="FullNameError2">Every word in the name field should start with a capital letter.</string>
 	<string name="PositionError1">The position field is empty!</string>
