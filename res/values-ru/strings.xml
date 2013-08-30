@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Резюме для чайников</string>
+    <string name="action_settings">Настройки</string>
+    <string name="BirthStr">Дата рождения</string>
+    <string name="NameHint">Имя полностью</string>
+    <string name="PositionHint">Желаемая должность</string>
+    <string name="WageHint">Желаемая зарплата</string>
+    <string name="SpinnerPrompt">Пол</string>
+    <string name="Male">Мужской</string>
+    <string name="Oops!">Ошибка!</string>
+	<string name="FullNameError1">Поле "Имя полностью" не заполнено!</string>
+	<string name="FullNameError2">Каждое слово в поле "Имя полностью" должно начинаться с большой буквы.</string>
+	<string name="PositionError1">Поле "Желаемая позиция" не заполнено!</string>
+	<string name="PositionError2">Каждое предложение в поле "Желаемая позиция" должно начинаться с большой буквы!</string>
+	<string name="WageError">Поле "Желаемая зарплата" не заполнено!</string>
+	<string name="PhoneNumberError">Поле "Номер телефона" не заполнено!</string>
+	<string name="EmailError">Поле "Адрес электронной почты" не заполнено!</string>
+
+    <string-array name="ChooseSex">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+
+    <string name="HeaderStr">Ваше резюме</string>
+    <string name="PhoneHint">Номер телефона</string>
+    <string name="EmailHint">Адрес электронной почты</string>
+    <string name="SendStr">Отправить резюме</string>
+    <string name="AnswerB">Ответить</string>
+    <string name="title_activity_activity2">Ответ на резюме</string>
+    <string name="SexHint">Ваш пол: </string>
+
+</resources>

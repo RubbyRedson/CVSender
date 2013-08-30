@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/HeaderStr"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Header"
+        android:layout_marginTop="25dp"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="@string/NameHint"
+        android:inputType="textFilter|textPersonName|textCapWords" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:drawableLeft="@drawable/ic_send_it"
+        android:onClick="TrySend"
+        android:text="@string/SendStr" />
+
+    <EditText
+        android:id="@+id/Position"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/DateOfBirth"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="@string/PositionHint"        
+        android:inputType="textFilter|textPersonName|textCapSentences"  />
+
+    <EditText
+        android:id="@+id/Wage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Position"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="@string/WageHint"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/PhoneNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/Wage"
+        android:ems="10"
+        android:hint="@string/PhoneHint"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PhoneNumber"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="@string/EmailHint"
+        android:inputType="textEmailAddress" />
+
+    <Spinner
+        android:id="@+id/SexSpinner"
+        style="@style/AppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SexHint"
+        android:layout_toRightOf="@+id/SexHint"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/SpinnerPrompt"
+        android:entries="@array/ChooseSex"
+        android:prompt="@string/SpinnerPrompt"
+        tools:listitem="@android:layout/simple_spinner_item" />
+
+    <TextView
+        android:id="@+id/SexHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Name"
+        android:layout_below="@+id/Name"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="@string/SexHint"
+        />
+
+    <TextView
+        android:id="@+id/BirthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SexHint"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:textSize="18sp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/BirthStr" />
+
+    <DatePicker
+        android:id="@+id/DateOfBirth"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BirthText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="11dp"
+        android:calendarViewShown="false"
+        android:spinnersShown="true" />
+
+</RelativeLayout>

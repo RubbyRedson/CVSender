@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CV Sender</string>
+    <string name="action_settings">Settings</string>
+    <string name="BirthStr">Date of birth</string>
+    <string name="NameHint">Full name</string>
+    <string name="PositionHint">Desired position</string>
+    <string name="WageHint">Desired wage</string>
+    <string name="SpinnerPrompt">Sex </string>
+    <string name="Male">Male</string>
+	<string name="Oops!">Oops!</string>
+	<string name="FullNameError1">The full name field is empty!</string>
+	<string name="FullNameError2">Every word in the name field should start with a capital letter.</string>
+	<string name="PositionError1">The position field is empty!</string>
+	<string name="PositionError2">Every sentence in the position field should start with a capital letter!</string>
+	<string name="WageError">The wage field is empty!</string>
+	<string name="PhoneNumberError">The phone number field is empty!</string>
+	<string name="EmailError">The e-mail field is empty!</string>
+    <string-array name="ChooseSex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="HeaderStr">Curriculum vitae</string>
+    <string name="PhoneHint">Phone number</string>
+    <string name="EmailHint">e-mail</string>
+    <string name="SendStr">Send</string>
+    <string name="AnswerB">Answer</string>
+    <string name="title_activity_activity2">Response to CV</string>
+    <string name="SexHint">Choose sex </string>
+
+</resources>
