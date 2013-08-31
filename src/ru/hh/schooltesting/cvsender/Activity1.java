@@ -90,10 +90,10 @@ public class Activity1 extends Activity {
     }
     private void ShowDialog(String title, String text)
     {
-    	AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage(text)
-            .setTitle(title);
-     AlertDialog dialog = builder.create();
-     dialog.show();
+    	 AlertDialog.Builder builder = new AlertDialog.Builder(this);
+	     AlertDialog dialog = builder.create();
+	     dialog.setMessage(text);
+	     dialog.setTitle(title);
+	     dialog.show();
     }
 }
